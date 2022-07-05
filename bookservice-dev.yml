@@ -6,3 +6,7 @@ spring:
     username: raiway
     password: Chencongjie996
     url: jdbc:mysql://rm-uf6i6u3raylj92705co.mysql.rds.aliyuncs.com:3306/cloud
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka
